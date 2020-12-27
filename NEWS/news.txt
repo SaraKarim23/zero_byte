@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: lightblue;
+}
+
+h1 {
+  color: red;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: grey;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>NEWS/NOTICE</h1>
+<hr>
+
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="CSE.jpg" style="width:200px;height:100px;">
+      <h2>'CSE Fest 2019'</h2>
+      <p>Department of CSE, IIUC is going to organize 'CSE Fest 2019', a fest related to information and communication technology. </br>
+                    This event will be held on 27th and 28th of August for the first time at International Islamic University Chittagong.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="notice.jpg" style="width:200px;height:100px;">
+      <h2>Holiday Notice</h2>
+      <p> *-Urgent Notice-*</br>
+           M.Sc in CSE classes off on this Friday(23/8/19).</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="test.jpg" style="width:200px;height:100px;">
+      <h2>Admission Test</h2>
+      <p>Admission open for Bachelor Programs.</br>
+           "Autumn-2019"</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="news-4.jpg" style="width:200px;height:100px;">
+      <h3>Defence Notice </h3>
+        <p>assalamualaikum </br>
+dear students</br>
+[Attn: 41 Batch]</br>
+The proposal defense of 41 batch is resheduled to 4 September 2019.</br>
+
+List of Thesis/Project group and Supervisor for 41 Batch</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      
+      <h2>'Urgent notice'</h2>
+      <p>
+Engineering Drawing (ME-2412 & CE-1202) Final examination (Female Section) will be held on 27/08/2019 Tuesday.</br>
+Section 4FA 8:10 - 10:10PM
+</p>
+    </div>
+  </div>
+<div class="column">
+    <div class="content">
+    <img src="news-5.jpg" style="width:200px;height:100px;">
+      <h2> Workshop on guide to writing a scientific research paper. </h2>
+        <p>To enhance the knowledge regarding writing a scientific research paper, IEEE IIUC SB arranged a workshop on Wednesday, August 21.</br>
+The workshop "workshop on the complete guide to writing a scientific research paper "was held in the seminar room from 1100hrs to 1600hrs.</br>
+More than 80 students from Faculty of Science and Engineering attended the program.</br> Professor Dr. Md. Monirul Islam, Acting Dean, Faculty of Science & Engineering was presented in the program as a chief guest.</p>
+    </div>
+  </div>
+<div class="column">
+    <div class="content">
+   
+      <h2> ==Urgent Notice== </h2>
+        <p>
+Assalamu alaikum,</br>
+Dear students,</br>
+Due to unavoidable circumstances ,</br>
+Classes shall remain suspended.</br>
+@( N.B- Notice Only for M.Sc in CSE)@
+    </div>
+  </div>
+<div class="column">
+    <div class="content">
+    <img src="grace.jpg" style="width:200px;height:100px;">
+      <h2>  Grace Hopper Girls Programming Camp. </h2>
+        <p>Alhamdulillah, we have successfully completed Workshop on "Grace Hopper Girls Programming Camp" organized by BdOSN(Bangladesh Open Source Network),</br> supported by IIUC Computer Club & IEEE IIUC SB WIE Affinity Group.</br>
+
+It took place at 24th July, 2019 on Female Academic Zone, IIUC.
+    </div>
+  </div>
+  </div>
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
